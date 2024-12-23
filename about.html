@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - WebDesign</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+    }
+    nav {
+      background-color: #343a40;
+    }
+    nav .navbar-brand {
+      font-weight: bold;
+    }
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1.2rem;
+      color: #6c757d;
+    }
+    .team-section {
+      background-color: #ffffff;
+      padding: 40px 20px;
+    }
+    .team-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .team-card {
+      background: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+      width: 300px;
+      text-align: center;
+    }
+    .team-card img {
+      width: 100%;
+      height: auto;
+    }
+    .team-card h3 {
+      margin: 10px 0;
+    }
+    .team-card p {
+      padding: 0 15px 15px;
+      color: #6c757d;
+    }
+    footer {
+      background-color: #343a40;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">WebDesign</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="Index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About Section -->
+  <section>
+    <h1>About Us</h1>
+    <p>We are passionate about creating high-quality, innovative web designs that bring your vision to life. Our mission is to deliver exceptional digital experiences that help you stand out online.</p>
+  </section>
+
+  <!-- Team Section -->
+  <section class="team-section">
+    <h2>Meet Our Team</h2>
+    <div class="team-container">
+      <div class="team-card">
+        <img src="images/team1.jpg" alt="Team Member 1">
+        <h3>Jane Doe</h3>
+        <p>Lead Designer</p>
+      </div>
+      <div class="team-card">
+        <img src="images/team2.jpg" alt="Team Member 2">
+        <h3>John Smith</h3>
+        <p>Senior Developer</p>
+      </div>
+      <div class="team-card">
+        <img src="images/team3.jpg" alt="Team Member 3">
+        <h3>Emily Davis</h3>
+        <p>Project Manager</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 WebDesign. All Rights Reserved.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
